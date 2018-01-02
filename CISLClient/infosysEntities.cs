@@ -40,7 +40,7 @@ namespace CISLClient
 		public infosysEntities() : base("name=infosysEntities")
 		{
 			DbConnection expr_18 = base.Database.Connection;
-			expr_18.ConnectionString += ";password=fudancscisl;Charset=utf8;";
+			expr_18.ConnectionString += ";password=;Charset=utf8;";
 		}
 
 		protected override void OnModelCreating(DbModelBuilder modelBuilder)
