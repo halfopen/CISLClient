@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="infosysModel.Store" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="finance">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="details" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="exOrIn" Type="tinyint" Nullable="false" />
+    <Property Name="amount" Type="float" Nullable="false" />
+    <Property Name="balance" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="history">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="zh_name" Type="varchar" MaxLength="255" />
+    <Property Name="in_timestamp" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="out_timestamp" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="valid_time" Type="int" Nullable="false" />
+    <Property Name="allowance" Type="tinyint" Nullable="false" />
+    <Property Name="duration" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="review">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="regTimestamp" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="title" Type="varchar" MaxLength="200" Nullable="false" />
+    <Property Name="source" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <EntityType Name="signrecord">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="userId" Type="int" Nullable="false" />
+    <Property Name="zh_name" Type="varchar" MaxLength="255" />
+    <Property Name="in_out" Type="bool" Nullable="false" />
+    <Property Name="signTimestamp" Type="timestamp" Precision="0" Nullable="false" />
+    <Property Name="valid" Type="tinyint" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="role" Type="tinyint" Nullable="false" />
+    <Property Name="zh_name" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="infosysModelStoreContainer">
+    <EntitySet Name="finance" EntityType="Self.finance" Schema="infosys" store:Type="Tables" />
+    <EntitySet Name="history" EntityType="Self.history" Schema="infosys" store:Type="Tables" />
+    <EntitySet Name="review" EntityType="Self.review" Schema="infosys" store:Type="Tables" />
+    <EntitySet Name="signrecord" EntityType="Self.signrecord" Schema="infosys" store:Type="Tables" />
+    <EntitySet Name="user" EntityType="Self.user" Schema="infosys" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

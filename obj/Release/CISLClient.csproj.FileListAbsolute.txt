@@ -1,0 +1,17 @@
+D:\CISLClient\bin\Release\CISLClient.exe.config
+D:\CISLClient\bin\Release\CISLClient.exe
+D:\CISLClient\bin\Release\CISLClient.pdb
+D:\CISLClient\bin\Release\EntityFramework.dll
+D:\CISLClient\bin\Release\MySql.Data.dll
+D:\CISLClient\bin\Release\EntityFramework.xml
+D:\CISLClient\bin\Release\MySql.Data.xml
+D:\CISLClient\obj\Release\CISLClient.csproj.CoreCompileInputs.cache
+D:\CISLClient\obj\Release\CISLClient.exe
+D:\CISLClient\obj\Release\CISLClient.pdb
+D:\CISLClient\bin\Release\CISLClient.exe.manifest
+D:\CISLClient\bin\Release\CISLClient.application
+D:\CISLClient\obj\Release\CISLClient.csprojResolveAssemblyReference.cache
+D:\CISLClient\obj\Release\CISLClient.Form1.resources
+D:\CISLClient\obj\Release\CISLClient.csproj.GenerateResource.Cache
+D:\CISLClient\obj\Release\CISLClient.exe.manifest
+D:\CISLClient\obj\Release\CISLClient.application

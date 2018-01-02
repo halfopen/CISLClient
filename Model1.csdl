@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="infosysModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="finance">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Nullable="false" />
+    <Property Name="details" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="exOrIn" Type="SByte" Nullable="false" />
+    <Property Name="amount" Type="Single" Nullable="false" />
+    <Property Name="balance" Type="Single" Nullable="false" />
+  </EntityType>
+  <EntityType Name="review">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="regTimestamp" Type="DateTime" Nullable="false" />
+    <Property Name="title" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="source" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="role" Type="SByte" Nullable="false" />
+    <Property Name="zh_name" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="infosysEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="finance" EntityType="Self.finance" />
+    <EntitySet Name="review" EntityType="Self.review" />
+    <EntitySet Name="user" EntityType="Self.user" />
+    <EntitySet Name="history" EntityType="infosysModel.history" />
+    <EntitySet Name="signrecord" EntityType="infosysModel.signrecord" />
+  </EntityContainer>
+  <EntityType Name="history">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="zh_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="in_timestamp" Type="DateTime" Nullable="false" />
+    <Property Name="out_timestamp" Type="DateTime" Nullable="false" />
+    <Property Name="valid_time" Type="Int32" Nullable="false" />
+    <Property Name="allowance" Type="SByte" Nullable="false" />
+    <Property Name="duration" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="signrecord">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="userId" Type="Int32" Nullable="false" />
+    <Property Name="zh_name" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="in_out" Type="Boolean" Nullable="false" />
+    <Property Name="signTimestamp" Type="DateTime" Nullable="false" />
+    <Property Name="valid" Type="SByte" Nullable="false" />
+  </EntityType>
+</Schema>

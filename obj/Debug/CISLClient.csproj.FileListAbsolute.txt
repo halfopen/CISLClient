@@ -1,0 +1,84 @@
+D:\CISLClient\bin\Debug\CISLClient.exe.config
+D:\CISLClient\bin\Debug\CISLClient.exe
+D:\CISLClient\bin\Debug\CISLClient.pdb
+D:\CISLClient\bin\Debug\EntityFramework.dll
+D:\CISLClient\bin\Debug\EntityFramework.xml
+D:\CISLClient\obj\Debug\CISLClient.csproj.CoreCompileInputs.cache
+D:\CISLClient\obj\Debug\CISLClient.exe
+D:\CISLClient\obj\Debug\CISLClient.pdb
+D:\CISLClient\bin\Debug\MySql.Data.dll
+D:\CISLClient\bin\Debug\MySql.Data.xml
+D:\CISLClient\obj\Debug\CISLClient.csprojResolveAssemblyReference.cache
+D:\CISLClient\obj\Debug\CISLClient.Form1.resources
+D:\CISLClient\obj\Debug\CISLClient.csproj.GenerateResource.Cache
+D:\CISLClient\bin\Debug\CISLClient.exe.manifest
+D:\CISLClient\bin\Debug\CISLClient.application
+D:\CISLClient\obj\Debug\CISLClient.exe.manifest
+D:\CISLClient\obj\Debug\CISLClient.application
+D:\CISLClient - js\bin\Debug\CISLClient.exe.config
+D:\CISLClient - js\bin\Debug\CISLClient.exe.manifest
+D:\CISLClient - js\bin\Debug\CISLClient.application
+D:\CISLClient - js\bin\Debug\CISLClient.exe
+D:\CISLClient - js\bin\Debug\CISLClient.pdb
+D:\CISLClient - js\bin\Debug\EntityFramework.dll
+D:\CISLClient - js\bin\Debug\MySql.Data.dll
+D:\CISLClient - js\bin\Debug\EntityFramework.xml
+D:\CISLClient - js\bin\Debug\MySql.Data.xml
+D:\CISLClient - js\obj\Debug\CISLClient.csprojResolveAssemblyReference.cache
+D:\CISLClient - js\obj\Debug\CISLClient.Form1.resources
+D:\CISLClient - js\obj\Debug\CISLClient.csproj.GenerateResource.Cache
+D:\CISLClient - js\obj\Debug\CISLClient.csproj.CoreCompileInputs.cache
+D:\CISLClient - js\obj\Debug\CISLClient.exe.manifest
+D:\CISLClient - js\obj\Debug\CISLClient.application
+D:\CISLClient - js\obj\Debug\CISLClient.exe
+D:\CISLClient - js\obj\Debug\CISLClient.pdb
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\CISLClient.exe.config
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\CISLClient.exe.manifest
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\CISLClient.application
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\CISLClient.exe
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\CISLClient.pdb
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\EntityFramework.dll
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\MySql.Data.dll
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\EntityFramework.xml
+C:\Users\Gunslinger\Desktop\CISLClient - js\bin\Debug\MySql.Data.xml
+C:\Users\Gunslinger\Desktop\CISLClient - js\obj\Debug\CISLClient.Form1.resources
+C:\Users\Gunslinger\Desktop\CISLClient - js\obj\Debug\CISLClient.csproj.GenerateResource.Cache
+C:\Users\Gunslinger\Desktop\CISLClient - js\obj\Debug\CISLClient.csproj.CoreCompileInputs.cache
+C:\Users\Gunslinger\Desktop\CISLClient - js\obj\Debug\CISLClient.exe.manifest
+C:\Users\Gunslinger\Desktop\CISLClient - js\obj\Debug\CISLClient.application
+C:\Users\Gunslinger\Desktop\CISLClient - js\obj\Debug\CISLClient.exe
+C:\Users\Gunslinger\Desktop\CISLClient - js\obj\Debug\CISLClient.pdb
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\CISLClient.exe.config
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\CISLClient.exe.manifest
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\CISLClient.application
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\CISLClient.exe
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\CISLClient.pdb
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\EntityFramework.dll
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\MySql.Data.dll
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\EntityFramework.xml
+C:\Users\Gunslinger\Desktop\CISLClient - ks\bin\Debug\MySql.Data.xml
+C:\Users\Gunslinger\Desktop\CISLClient - ks\obj\Debug\CISLClient.csprojResolveAssemblyReference.cache
+C:\Users\Gunslinger\Desktop\CISLClient - ks\obj\Debug\CISLClient.Form1.resources
+C:\Users\Gunslinger\Desktop\CISLClient - ks\obj\Debug\CISLClient.csproj.GenerateResource.Cache
+C:\Users\Gunslinger\Desktop\CISLClient - ks\obj\Debug\CISLClient.csproj.CoreCompileInputs.cache
+C:\Users\Gunslinger\Desktop\CISLClient - ks\obj\Debug\CISLClient.exe.manifest
+C:\Users\Gunslinger\Desktop\CISLClient - ks\obj\Debug\CISLClient.application
+C:\Users\Gunslinger\Desktop\CISLClient - ks\obj\Debug\CISLClient.exe
+C:\Users\Gunslinger\Desktop\CISLClient - ks\obj\Debug\CISLClient.pdb
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\CISLClient.exe.config
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\CISLClient.exe.manifest
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\CISLClient.application
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\CISLClient.exe
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\EntityFramework.dll
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\MySql.Data.dll
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\EntityFramework.xml
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\MySql.Data.xml
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\obj\Debug\CISLClient.Form1.resources
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\obj\Debug\CISLClient.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\obj\Debug\CISLClient.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\obj\Debug\CISLClient.exe.manifest
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\obj\Debug\CISLClient.application
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\obj\Debug\CISLClient.exe
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\obj\Debug\CISLClient.pdb
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\bin\Debug\CISLClient.pdb
+C:\Users\Administrator\Desktop\CISLClient - ks\CISLClient - ks\obj\Debug\CISLClient.csprojResolveAssemblyReference.cache

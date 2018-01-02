@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="infosysModelStoreContainer" CdmEntityContainer="infosysEntities">
+    <EntitySetMapping Name="finance">
+      <EntityTypeMapping TypeName="infosysModel.finance">
+        <MappingFragment StoreEntitySet="finance">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="details" ColumnName="details" />
+          <ScalarProperty Name="exOrIn" ColumnName="exOrIn" />
+          <ScalarProperty Name="amount" ColumnName="amount" />
+          <ScalarProperty Name="balance" ColumnName="balance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="review">
+      <EntityTypeMapping TypeName="infosysModel.review">
+        <MappingFragment StoreEntitySet="review">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="regTimestamp" ColumnName="regTimestamp" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="source" ColumnName="source" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="user">
+      <EntityTypeMapping TypeName="infosysModel.user">
+        <MappingFragment StoreEntitySet="user">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="role" ColumnName="role" />
+          <ScalarProperty Name="zh_name" ColumnName="zh_name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="history">
+      <EntityTypeMapping TypeName="infosysModel.history">
+        <MappingFragment StoreEntitySet="history">
+          <ScalarProperty Name="duration" ColumnName="duration" />
+          <ScalarProperty Name="allowance" ColumnName="allowance" />
+          <ScalarProperty Name="valid_time" ColumnName="valid_time" />
+          <ScalarProperty Name="out_timestamp" ColumnName="out_timestamp" />
+          <ScalarProperty Name="in_timestamp" ColumnName="in_timestamp" />
+          <ScalarProperty Name="zh_name" ColumnName="zh_name" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="signrecord">
+      <EntityTypeMapping TypeName="infosysModel.signrecord">
+        <MappingFragment StoreEntitySet="signrecord">
+          <ScalarProperty Name="valid" ColumnName="valid" />
+          <ScalarProperty Name="signTimestamp" ColumnName="signTimestamp" />
+          <ScalarProperty Name="in_out" ColumnName="in_out" />
+          <ScalarProperty Name="zh_name" ColumnName="zh_name" />
+          <ScalarProperty Name="userId" ColumnName="userId" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
