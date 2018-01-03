@@ -438,7 +438,7 @@ namespace CISLClient
             // 如果在文件中有配置
             if (this.array.Length > 2)
             {
-                if(this.autosignin.IndexOf(h+",")>=0 && text.Contains("签入") || this.autosignout.IndexOf(h+",")>=0 && text.Contains("签出"))
+                if(this.autosignin.IndexOf(","+h+",")>=0 && text.Contains("签入") || this.autosignout.IndexOf(","+h+",")>=0 && text.Contains("签出"))
                 {
                     signRecord();
                 }
